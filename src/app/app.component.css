@@ -1,0 +1,50 @@
+.discover {
+  padding: 20px 0;
+}
+.slider-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 900px;
+  color:red;
+}
+.slider-main{
+  position: absolute;
+  width: 200%;
+}
+figure{
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  background-color: aqua;
+  position: relative;
+  margin: 0 8px;
+}
+img {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  object-fit: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+button{
+  border:none;
+  background-color: black;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+.prev{
+  position: absolute;
+  top: 25%;
+  left:10px;
+  transform: translate(-50%, -50%);
+}
+.next{
+  position: absolute;
+  top: 25%;
+  right:-40px;
+  transform: translate(-50%, -50%);
+}
